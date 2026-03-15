@@ -79,6 +79,14 @@ Indicator States:
 
 ---
 
+Timer overflow
+      ↓
+ISR executes
+      ↓
+flag1 toggles
+      ↓
+LED ON / OFF
+
 ### ECU3 – Dashboard ECU
 
 This ECU acts as the central dashboard.
