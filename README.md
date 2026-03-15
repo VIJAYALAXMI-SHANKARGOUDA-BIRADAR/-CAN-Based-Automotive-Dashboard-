@@ -87,6 +87,19 @@ flag1 toggles
       ↓
 LED ON / OFF
 
+
+ECU1 / ECU2 send CAN data
+        ↓
+ECU3 receives indicator status
+        ↓
+flag2 updated in main
+        ↓
+Timer0 interrupt occurs
+        ↓
+ISR toggles LEDs
+        ↓
+Indicator blinking
+
 ### ECU3 – Dashboard ECU
 
 This ECU acts as the central dashboard.
