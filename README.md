@@ -100,6 +100,8 @@ ISR toggles LEDs
         ↓
 Indicator blinking
 
+           ISR is used to handle Timer0 interrupts for periodic LED indicator blinking without blocking the main CAN communication process.
+
 ### ECU3 – Dashboard ECU
 
 This ECU acts as the central dashboard.
